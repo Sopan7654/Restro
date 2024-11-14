@@ -24,7 +24,7 @@ const Reservation = () => {
 
     try {
       const { data } = await axios.post(
-        "https://your-backend-url.onrender.com/api/reservations/send",
+        "https://localhost4000/api/reservations/send",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
